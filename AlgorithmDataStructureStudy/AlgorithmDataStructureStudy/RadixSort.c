@@ -26,16 +26,16 @@ void radixSort(int* a, int n) {
 	}
 }
 
-int main(void) {
-	int a[MAX];
-	int i, n;
-	scanf("%d", &n);
-	for (i = 0; i < n; i++) {
-		scanf("%d", &a[i]);
-	}
-	radixSort(a, n);
-	for (i = 0; i < n; i++) {
-		printf("%d", a[i]);
-	}
-	system("pause");
-}
+//int main(void) {
+//	int a[MAX];
+//	int i, n;
+//	scanf("%d", &n);
+//	for (i = 0; i < n; i++) {
+//		scanf("%d", &a[i]);
+//	}
+//	radixSort(a, n);
+//	for (i = 0; i < n; i++) {
+//		printf("%d", a[i]);
+//	}
+//	system("pause");
+//}

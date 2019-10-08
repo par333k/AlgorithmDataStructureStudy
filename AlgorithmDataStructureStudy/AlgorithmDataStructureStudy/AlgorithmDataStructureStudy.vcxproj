@@ -125,6 +125,7 @@
   <ItemGroup>
     <ClCompile Include="BinaryTree.c" />
     <ClCompile Include="RadixSort.c" />
+    <ClCompile Include="PriorityQueue.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
