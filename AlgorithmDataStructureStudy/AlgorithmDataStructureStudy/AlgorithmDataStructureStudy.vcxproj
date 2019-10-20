@@ -126,6 +126,10 @@
     <ClCompile Include="BinaryTree.c" />
     <ClCompile Include="RadixSort.c" />
     <ClCompile Include="PriorityQueue.c" />
+    <ClCompile Include="SequentialSearch.c" />
+    <ClCompile Include="BinarySearch.c" />
+    <ClCompile Include="GraphAdjacencyMatrix.c" />
+    <ClCompile Include="GraphAdjacencyList.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
