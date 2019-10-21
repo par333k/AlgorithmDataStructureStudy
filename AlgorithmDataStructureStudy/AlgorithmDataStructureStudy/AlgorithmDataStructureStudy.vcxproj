@@ -130,6 +130,7 @@
     <ClCompile Include="BinarySearch.c" />
     <ClCompile Include="GraphAdjacencyMatrix.c" />
     <ClCompile Include="GraphAdjacencyList.c" />
+    <ClCompile Include="DFS.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

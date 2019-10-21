@@ -24,24 +24,24 @@ void showAll(Node* root) {
 	}
 }
 
-int main(void) {
-	int n, m;
-	scanf("%d %d", &n, &m);
-	Node** a = (Node**)malloc(sizeof(Node*) * (n + 1));
-	for (int i = 1; i <= n; i++) {
-		a[i] = (Node*)malloc(sizeof(Node));
-		a[i]->next = NULL;
-	}
-	for (int i = 0; i < m; i++) {
-		int x, y, distance;
-		scanf("%d %d %d", &x, &y, &distance);
-		addFront(a[x], y, distance);
-	}
-	for (int i = 1; i <= n; i++) {
-		printf("원소 [%d]: ", i);
-		showAll(a[i]);
-		printf("\n");
-	}
-	system("pause");
-	return 0;
-}
+//int main(void) {
+//	int n, m;
+//	scanf("%d %d", &n, &m);
+//	Node** a = (Node**)malloc(sizeof(Node*) * (n + 1));
+//	for (int i = 1; i <= n; i++) {
+//		a[i] = (Node*)malloc(sizeof(Node));
+//		a[i]->next = NULL;
+//	}
+//	for (int i = 0; i < m; i++) {
+//		int x, y, distance;
+//		scanf("%d %d %d", &x, &y, &distance);
+//		addFront(a[x], y, distance);
+//	}
+//	for (int i = 1; i <= n; i++) {
+//		printf("원소 [%d]: ", i);
+//		showAll(a[i]);
+//		printf("\n");
+//	}
+//	system("pause");
+//	return 0;
+//}
