@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AVLtree.c" />
     <ClCompile Include="BinaryTree.c" />
     <ClCompile Include="RadixSort.c" />
     <ClCompile Include="PriorityQueue.c" />
@@ -131,6 +132,8 @@
     <ClCompile Include="GraphAdjacencyMatrix.c" />
     <ClCompile Include="GraphAdjacencyList.c" />
     <ClCompile Include="DFS.c" />
+    <ClCompile Include="BFS.c" />
+    <ClCompile Include="BinarySearchTree.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

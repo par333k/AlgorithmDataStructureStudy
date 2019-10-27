@@ -39,5 +39,14 @@
     <ClCompile Include="DFS.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BFS.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearchTree.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AVLtree.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
