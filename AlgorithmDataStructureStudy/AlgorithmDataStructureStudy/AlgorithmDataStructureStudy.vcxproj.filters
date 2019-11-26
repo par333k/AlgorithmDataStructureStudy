@@ -51,5 +51,11 @@
     <ClCompile Include="LinearHash.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ChainingHash.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="primMST.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

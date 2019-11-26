@@ -124,7 +124,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AVLtree.c" />
+    <ClCompile Include="ChainingHash.c" />
     <ClCompile Include="BinaryTree.c" />
+    <ClCompile Include="primMST.c" />
     <ClCompile Include="RadixSort.c" />
     <ClCompile Include="PriorityQueue.c" />
     <ClCompile Include="SequentialSearch.c" />
